@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800|Open+Sans:800" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+	<script src="vendors/jquery.easings.min.js"></script>
+
+
+	<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+	$('#fullpage').fullpage({
+        menu: '#menu',
+        bigSectionsDestination: top,
+        sectionsColor : ['none', '#ec008c','#ec008c'],
+        fitToSection: true,
+        scrollBar: false,
+        navigation: true,
+        navigationPosition: 'right',
+        scrollHorizontally: true,
+        scrollOverflow: true,
+
+    });
+});
+       
+        
+
+	</script>
+
+</head>
+
+<body>
+	<div id="fullpage">
+        <div class="section " id="section0">
+            <div class="overlay">    
+                <video id="myVideo" loop muted data-autoplay>
+                    <source src="images/ny4k.mp4" type="video/mp4">
+                    <source src="images/ny4k.webm" type="video/webm">
+                </video>
+            </div>
+            <div class="layer">
+                <h1 id= "fd1">
+                    From Day One
+                </h1>
+                <h2 id=fd1-h2>
+                    Brooklyn's Newest Tech Gathering
+                </h2>
+                <button type="button" id="top-button">SIGN UP</button>
+            </div>
+        </div>
+    		<!--<div class="section">
+        		<div class="bg">
+                    <div class="nav">
+            			<div id="navcontainer">
+            				<img id="menu" src="images/menu.svg" style="height:40px">
+            			</div>
+            			<div class="menu">
+            				<img id="menu" src="images/menu.svg" style="height:40px">
+            			</div>
+                    </div>
+                    <div class="welcome">
+                        <div id="welcome-picture">
+                            <img src="images/fd1logo.png">
+                        </div>
+                    </div>
+                </div>
+    		</div> -->
+    		<div class="section" id="section1">
+                <div class="claim">
+        			<div class="claim-list">
+                        <ul id="claim-id">
+                            <li>
+                                <div id="claim-1">
+                                    <img src="images/calendar.svg" style="height: 260px;">
+                                    <div class="claim-text">
+                                        Join a diverse group of Brooklyn entrepeneurs
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id="claim-2">
+                                    <img src="images/mic.svg" style="height: 260px;">
+                                    <div class="claim-text">
+                                        Listen 13 world renowned speakers give their stories
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id="claim-3">
+                                    <img src="images/network.svg" style="height: 260px;">
+                                    <div class="claim-text">
+                                        Network with a range of up and coming developers
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                </div>
+           <div class="info-test">
+                <div class="explain">
+                    <p id="left">
+                        Bacon ipsum dolor amet leberkas burgdoggen cupim pancetta, salami venison biltong tongue pork jowl chuck flank. Chuck beef ribs turducken, pork ham cupim rump tongue hamburger landjaeger meatloaf jowl corned beef capicola t-bone. 
+                    </p>
+                    <p id="right">
+                    Shankle andouille burgdoggen corned beef pancetta chuck. Pastrami porchetta kielbasa venison. Alcatra spare ribs frankfurter, brisket ribeye burgdoggen pork belly meatball beef ribs capicola prosciutto filet mignon short loin leberkas.
+                    </p>
+                </div>
+            </div>
+            </div>
+            </div>
+    		<div class="section">
+            <div class="speakers-title">
+                <h1>
+                    Meet the Team
+                </h1>
+    			<div class="speakers">
+                    <ul id= "speakers-list">
+                        <li>
+                            <div id="speaker-1">
+                                <img src="images/headshots/Nick.jpg" style="height: 160px">
+                                <div class="speaker-text">
+                                    Nick Baily
+                                    CEO of Complex Ventures
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="speaker-2">
+                                <img src="images/headshots/missy.jpg" style="height: 160px">
+                                <div class="speaker-text">
+                                    Missy Jeff
+                                    Important Woman
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="speaker-3">
+                                <img src="images/headshots/erin.jpg" style="height: 160px">
+                                <div class="speaker-text">
+                                    Erin Sauter
+                                    Operations
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div id="speaker-4">
+                                <img src="images/headshots/tucker.jpg" style="height: 160px">
+                                <div class="speaker-text">
+                                    Tucker Sick
+                                    So interesting 
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="speaker-5">
+                                <img src="images/headshots/stephen.jpg" style="height: 160px">
+                                <div class="speaker-text">    
+                                    Stephen Word
+                                    Something Cool
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="speaker-6">
+                                <img src="images/headshots/kim.jpg" style="height: 160px">
+                                <div class="speaker-text">    
+                                    Kim Jim
+                                    Okay  okay oaky
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+    		</div>
+	</div>
+
+</body>
+
+</html>
